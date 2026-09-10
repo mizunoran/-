@@ -1,0 +1,83 @@
+body{
+    font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    color: #604c3f;
+    background: #f0eccd;
+    line-height: 1.2;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.card{
+    background: #ded46c;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+.point {
+color: #33272a;
+font-weight: bold;
+background: #f1ab5a;
+}
+.steps li {
+display: flex;
+align-items: flex-start;
+gap: 16px;
+margin-bottom: 20px;
+}
+.steps img {
+width: 180px;
+}
+.ingredients{
+    text-align: left;
+}
+h1{
+    font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 32px;
+    color: #33272a;
+    border-bottom: 2px solid #604c3f;
+    padding-bottom: 12px;
+}
+h2{
+    font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+font-size: 24px;
+color: #006e91;
+margin-top: 40px;
+}
+
+img {
+width: 100%;
+border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+.steps li {
+display: block;
+margin-bottom: 20px;
+}
+.steps img {
+width: 60%;
+}
+.steps li span{
+    vertical-align: top;
+}
+.steps li p{
+    line-height: 1.6;
+    font-size: 14px;
+}
+.ingredients p{
+    font-size: 14px;
+}
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 20px;
+}
+}
